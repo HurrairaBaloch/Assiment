@@ -1,0 +1,311 @@
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  
+  z-index: 1;
+  pointer-events: none;
+}
+.addCheckInBoxContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.addCheckInBox {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+}
+
+.addCheckInBox h2 {
+  margin-top: 0;
+}
+
+.addCheckInBox input,
+.addCheckInBox textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.addCheckInBox .buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.addCheckInBox button {
+  margin-left: 10px;
+}
+
+
+
+
+
+.title {
+  position: relative;
+  line-height: 22px;
+}
+.menuItem,
+.menulegacy {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.menuItem {
+  align-self: stretch;
+  padding: 0 var(--padding-xl);
+  justify-content: flex-start;
+}
+
+.avatarimageIcon {
+  position: relative;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}
+.buttons,
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.user {
+  padding: 0 12px;
+  justify-content: flex-start;
+}
+.buttons {
+  overflow: hidden;
+  justify-content: flex-end;
+  gap: 16px;
+  text-align: left;
+  font-size: var(--body-regular-size);
+  color: var(--character-title-85);
+}
+.globalHeaderfrontEnd,
+.headerChild {
+  position: absolute;
+  background-color: var(--character-primaryinverse);
+}
+.globalHeaderfrontEnd {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 0 40px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.aaa{
+  position: absolute;
+  top: 25%;
+  left: 2.78%;
+}
+
+.aaa {
+  font-size: var(--h3-medium-size);
+  line-height: 32px;
+  font-weight: 500;
+  color: var(--neutral-13);
+  text-align: left;
+}
+.headerItem {
+  position: absolute;
+  height: 1.56%;
+  width: 100.07%;
+  top: 99.22%;
+  right: -0.03%;
+  bottom: -0.78%;
+  left: -0.03%;
+  border-top: 1px solid var(--neutral-5);
+  box-sizing: border-box;
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 64px;
+  text-align: center;
+  font-size: 10px;
+  color: var(--primary-6);
+}
+.checkins {
+  position: absolute;
+  top: 114px;
+  left: 40px;
+  font-size: var(--h2-medium-size);
+  line-height: 40px;
+  font-weight: 500;
+}
+.loremIpsusDolor {
+  position: absolute;
+  top: 162px;
+  left: 40px;
+  line-height: 22px;
+}
+.greycontainerChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--neutral-2);
+}
+.greycontainerItem {
+  position: absolute;
+  height: 0.13%;
+  width: 100.07%;
+  top: -0.06%;
+  right: -0.03%;
+  bottom: 99.94%;
+  left: -0.03%;
+  border-top: 1px solid var(--neutral-5);
+  box-sizing: border-box;
+}
+.greycontainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 780px;
+}
+.title2 {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.divider {
+  margin: 0 !important;
+  top: calc(50% - 11.5px);
+  left: -0.5px;
+  border-right: 1px solid var(--conditional-divider);
+  width: 1px;
+  height: 23px;
+  z-index: 0;
+}
+.title3 {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+  z-index: 1;
+}
+
+
+.projectsTableheader {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  width: 1348px;
+  height: 54px;
+}
+.noProjects,
+.projectsTablerow {
+  position: absolute;
+  top: 84px;
+  left: 40px;
+  width: 1348px;
+  height: 56px;
+}
+.noProjects {
+  top: 244px;
+  left: 0;
+  width: 1440px;
+  height: 780px;
+  color: var(--character-title-85);
+}
+
+.button {
+  position: absolute;
+  top: 138px;
+  left: 1273px;
+  border-radius: var(--br-11xs);
+  background-color: black;
+  box-shadow: var(--drop-shadow-button-primary);
+  border: 1px solid black;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 4px 15px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.allCheckins {
+  position: relative;
+  background-color: var(--character-primaryinverse);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--body-regular-size);
+  color: var(--neutral-13);
+  font-family: var(--body-regular);
+}
+
+
+
+.seeCheckinDetail {
+  position: relative;
+}
+
+.seeCheckinDetailChild {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.drawer {
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  height: auto;
+  width: 400px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.closeIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
